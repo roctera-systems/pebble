@@ -40,10 +40,12 @@ Internal use only - Roctera Systems
 
 ## 🎯 Roadmap
 
+- [ ] Move stack into react
 - [ ] User authentication with email/password
 - [ ] Project/workspace separation
 - [ ] Task due dates and priorities
 - [ ] File attachments
+- [ ] Google Drive Integration
 - [ ] Email notifications
 - [ ] Offline support
 - [ ] Custom user configuration
