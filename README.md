@@ -19,8 +19,6 @@ Pebble is an internal web application designed for real-time task collaboration 
 - **Hosting**: Firebase Hosting
 - **Real-time**: Firestore real-time listeners
 
-```
-
 ## 📱 Usage
 
 1. **Join a session** - Enter your name to start collaborating
@@ -51,7 +49,5 @@ Internal use only - Roctera Systems
 - [ ] Custom user configuration
 - [ ] Dark mode
 - [ ] Export functionality
-
----
 
 Built with ❤️ by the Roctera Systems team
