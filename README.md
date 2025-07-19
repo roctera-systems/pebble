@@ -38,10 +38,26 @@ Designed to stay within Firebase's generous free tier:
 
 Internal use only - Roctera Systems
 
+## How to Run:
+
+NPM Packages:
+```bash
+npm install firebase
+```
+
+```bash
+npm install firebase-tools -g
+```
+
+
+Notes:
+- `firebase serve` deploys the page locally
+- `firebase deploy` deploys the page on the internet with SSL cert
+
 ## 🎯 Roadmap
 
 - [ ] Move stack into react
-- [ ] User authentication with email/password
+- [X] User authentication with email/password
 - [ ] Project/workspace separation
 - [ ] Task due dates and priorities
 - [ ] File attachments
