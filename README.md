@@ -34,6 +34,17 @@ Designed to stay within Firebase's generous free tier:
 - **Hosting**: 10GB storage, 10GB transfer per month
 - **Functions**: 125k invocations per month
 
+## How to Run:
+
+NPM Packages:
+```bash
+npm install firebase
+```
+
+```bash
+npm install firebase-tools -g
+```
+
 ## 📝 License
 
 Internal use only - Roctera Systems
