@@ -1,0 +1,36 @@
+
+// implementing firebase user authentication
+document.addEventListener("DOMContentLoaded", event => {
+  const app = firebase.app();
+  
+  const db = firebase.firestore();
+
+  const myPost = db.collection('posts').doc('firstpost');
+
+  myPost.onSnapshot(doc => {
+
+    const data = doc.data();
+    document.write(data.title + `<br>`);
+
+  })
+});
+
+// function google_login() {
+//   const provider = new firebase.auth.GoogleAuthProvider();
+
+//   firebase.auth().signInWithPopup(provider)
+//     // line above is an async func so we need to complete the promise
+//     .then(result => {
+//       const user = result.user;
+//       document.write(`Hello ${user.displayName}`);
+//       console.log(user);
+//     })
+
+//     .catch(console.log); 
+// }
+
+function update_post(event) {
+  const db = firebase.firestore(event);
+  const myPost = db.collection('posts').doc('firstpost');
+  myPost.update({title: event.target.value})
+}
