@@ -1,5 +1,10 @@
 # 🪨 pebble
 
+## DISCLAIMER
+do not run `firebase deploy` as of yet since app isnt ready for production. If you do then the site will remain up but lets keep storage costs low so only use `firebase serve` for testing.
+
+I already ran `firebase hosting:disable` so to renable (note for myself) just run `firebase deploy`
+
 **Simple, collaborative todo management for Roctera Systems teams**
 
 Pebble is an internal web application designed for real-time task collaboration across Roctera Systems. Built for simplicity and speed, it enables teams to create, share, and track tasks together without the overhead of complex project management tools.

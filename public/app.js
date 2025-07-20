@@ -1,19 +1,21 @@
-// app.js - Main application file
+// app.js
 import { google_login } from './google-auth.js';
-import { saveData, loadData, clearData } from './database.js';
-import { addTask, setupTaskListeners, setupKeyboardListeners } from './tasks.js';
+import { loadTasks } from './database.js';
+import { addTask, setupTaskListeners, setupKeyboardListeners, loadAndDisplayTasks } from './tasks.js';
 
 // Initialize the application
-function initApp() {
-  // Load saved tasks when the page loads
-  loadData();
+async function initApp() {
+  console.log("Initializing app...");
   
-  // Set up event listeners for tasks
+  // Load and display tasks from Firestore
+  await loadAndDisplayTasks();
+  
+  // Set up event listeners
   setupTaskListeners();
   setupKeyboardListeners();
-  
-  // Set up button event listeners (replaces onclick attributes)
   setupButtonListeners();
+  
+  console.log("App initialized successfully!");
 }
 
 function setupButtonListeners() {
@@ -29,24 +31,13 @@ function setupButtonListeners() {
   }
 }
 
-  // Google login button - find the button outside the container
-  const loginButton = document.querySelector('button[onclick="google_login()"]');
-  if (loginButton) {
-    // Remove the onclick attribute and add event listener
-    loginButton.removeAttribute('onclick');
-    loginButton.addEventListener("click", google_login);
-  }
-
-
-// Initialize the app when DOM is ready
+// Initialize when DOM is ready
 document.addEventListener("DOMContentLoaded", initApp);
 
-// Export functions for potential use in other modules (but not globally)
+// Export functions for potential use in other modules
 export {
   google_login,
   addTask,
-  saveData,
-  loadData,
-  clearData,
+  loadTasks,
   initApp
 };
