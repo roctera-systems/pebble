@@ -51,17 +51,17 @@
         <h2>
           To-Do List <img src="assets/toDoListIcon.png" alt="To-Do List Icon" />
         </h2>
-
         <div class="row">
           <input type="text" id="input-box" placeholder="Add your task" />
-          <button onclick="addTask()">Add</button>
+          <button>Add</button>
         </div>
 
         <ul id="list-container"></ul>
       </div>
     </div>
 
-    <button onclick="google_login()">Google Authentication</button>
-    <script src="app.js"></script>
+    <button id="google-login-btn">Google Authentication</button>
+    <!-- ** Main Application Script  ** type="module" enables ES6 features like importing and exporting -->
+    <script type="module" src="app.js"></script>
   </body>
 </html>
