@@ -8,8 +8,9 @@ import {
   deleteDoc,
   query,
   orderBy 
-} from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js';
-import { db } from './firebase-config.js';
+} from 'https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js'; // CDN link 
+// CDN rapid dev but was gen thru AI rarther use npm link: firebase/firestore instead (since its provided in docs)
+import { db } from './firebase-config.js'; // npm link (already installed when i ran npm install firebase)
 
 // Save a single task to Firestore
 export async function saveTask(taskText) {
