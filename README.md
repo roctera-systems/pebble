@@ -1,6 +1,7 @@
 # pebble
 
 ## File Structure:
+```bash
 app/
 ├── layout.tsx                    # Root layout
 ├── page.tsx                     # Landing page
@@ -45,6 +46,7 @@ app/
         ├── search.tsx          # Search functionality
         ├── pagination.tsx      # Pagination component
         └── date-picker.tsx     # Date selection
+```
 
 - `/app`: Contains all the routes, components, and logic for the application.
 - `/app/lib`: Contains functions used in the application, such as reusable utility functions and data fetching functions.
