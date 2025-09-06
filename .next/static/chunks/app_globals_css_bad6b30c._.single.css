@@ -431,6 +431,10 @@
     display: grid;
   }
 
+  .table {
+    display: table;
+  }
+
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
