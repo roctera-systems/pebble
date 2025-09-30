@@ -3,6 +3,13 @@ Free Task Management System that allows small teams to improve workflow by havin
 
 **Open-source team collaboration for student organizations on a budget**
 
+
+## 📞 Support & Community
+
+- **Issues**: [GitHub Issues](https://github.com/pebble/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/pebble/discussions)
+- **Email**: team@rocterasystems.com
+
 ## Timeline
 - June 2025 (Eriel Cabrera starts project with Tomas Mejia)
 - September 2025 (Marcio Garcia, Carlos Diaz, Henry Perez, Tomas Mejia) wrote the foundational code 
@@ -169,11 +176,6 @@ MIT License - Feel free to use, modify, and distribute. See [LICENSE](LICENSE) f
 - **The Student Developer Community** - For believing that great tools shouldn't break the bank
 - **Open Source Contributors** - This project exists because of your contributions
 
-## 📞 Support & Community
-
-- **Issues**: [GitHub Issues](https://github.com/marci0garcia/pebble/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/marci0garcia/pebble/discussions)
-- **Email**: mgarc1070@fiu.edu
 
 ---
 
