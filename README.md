@@ -6,8 +6,8 @@ Free Task Management System that allows small teams to improve workflow by havin
 
 ## 📞 Support & Community
 
-- **Issues**: [GitHub Issues](https://github.com/pebble/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/pebble/discussions)
+- **Issues**: [GitHub Issues](https://github.com/roctera-systems/pebble/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/roctera-systems/pebble/discussions)
 - **Email**: team@rocterasystems.com
 
 ## Timeline
